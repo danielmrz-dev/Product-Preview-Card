@@ -20,7 +20,7 @@ main {
     border-radius: 8px;
     width: 320px;
     height: 510px;
-    margin: 25px auto 15px;
+    margin: 33px auto 12px;
 }
 
 main > div.img {
@@ -53,7 +53,7 @@ main > div.img {
 
 .desconto {
     position: absolute;
-    top: 425px;
+    top: 434px;
     left: 52vw;
 }
 
