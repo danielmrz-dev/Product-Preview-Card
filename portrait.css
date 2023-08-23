@@ -19,15 +19,15 @@ main {
     background-color: var(--color-white);
     border-radius: 8px;
     width: 320px;
-    height: 530px;
-    margin: 15px auto;
+    height: 510px;
+    margin: 25px auto 15px;
 }
 
 main > div.img {
     background: url(images/image-product-mobile.jpg) top center no-repeat scroll;
     background-size: cover;
     width: 320px;
-    height: 190px;
+    height: 170px;
     border-radius: 8px 8px 0 0;
 }
 
@@ -53,7 +53,7 @@ main > div.img {
 
 .desconto {
     position: absolute;
-    top: 435px;
+    top: 425px;
     left: 52vw;
 }
 
