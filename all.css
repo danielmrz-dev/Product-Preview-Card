@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-darkcyan: hsl(158, 36%, 37%);
+    --color-cream: hsl(30, 38%, 92%);
+    --color-darkblue: hsl(212, 21%, 14%);
+    --color-grey: hsl(228, 12%, 48%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-fraunces: 'Fraunces', sans-serif;
+}
+
+body {
+    background-color: var(--color-cream);
+}
+
+.texto h2 {
+    text-transform: uppercase;
+    font-family: var(--font-montserrat);
+    color: var(--color-grey);
+}
+
+.texto h1 {
+    line-height: 30px;
+    font-family: var(--font-fraunces);
+    color: var(--color-darkblue);
+}
+
+.texto section {
+    line-height: 22px;
+    font-family: var(--font-montserrat);
+    color: var(--color-grey);
+    font-size: 14px;
+}
+
+.atual {
+    font-family: var(--font-fraunces);
+    color: var(--color-darkcyan);
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.desconto {
+    font-family: var(--font-montserrat);
+    color: var(--color-grey);
+    margin: 0;
+    font-size: .9rem;
+    display: inline;
+    text-decoration: line-through;
+}
+
+.button {
+    display: block;
+    font-family: var(--font-montserrat);
+    font-weight: bold;
+    color: var(--color-white);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-darkcyan);
+}
+
+.button:hover {
+    background-color:   hsl(158, 52%, 21%)
+}
+
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--font-montserrat);
+    color: var(--color-grey);
+    font-size: .8rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-darkcyan);
+}
+
+footer a:hover {
+    color: var(--color-darkblue);
+    text-decoration: underline;
+}
+
